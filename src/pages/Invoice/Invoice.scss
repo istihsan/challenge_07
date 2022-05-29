@@ -1,0 +1,63 @@
+.invoice-section {
+  .head {
+    background-color: #f1f3ff;
+    height: 100px;
+
+    .row-head {
+      display: flex;
+      justify-content: space-between !important;
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #000;
+      }
+
+      p {
+        margin-left: 30px;
+      }
+      .list-menu {
+        text-align: right;
+        li {
+          margin-right: 10px;
+          list-style: none;
+        }
+
+        &:hover {
+          background-color: #f1f3ff;
+        }
+      }
+    }
+
+    .row-content {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+
+      .content-title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .content-description {
+        margin-top: -15px;
+        color: #acacac;
+      }
+
+      .box {
+        border: 1px solid #acacac;
+        border-radius: 5px;
+        height: 750px;
+
+        .row-invoice-download {
+          .btn-download {
+            background-color: #fff;
+            width: auto;
+            border: 2px solid blue;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}

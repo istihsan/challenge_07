@@ -1,0 +1,70 @@
+.invoice-section .head {
+  background-color: #f1f3ff;
+  height: 100px;
+}
+
+.invoice-section .head .row-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.invoice-section .head .row-head a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.invoice-section .head .row-head p {
+  margin-left: 30px;
+}
+
+.invoice-section .head .row-head .list-menu {
+  text-align: right;
+}
+
+.invoice-section .head .row-head .list-menu li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+.invoice-section .head .row-head .list-menu:hover {
+  background-color: #f1f3ff;
+}
+
+.invoice-section .head .row-content {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.invoice-section .head .row-content .content-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.invoice-section .head .row-content .content-description {
+  margin-top: -15px;
+  color: #acacac;
+}
+
+.invoice-section .head .row-content .box {
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  height: 750px;
+}
+
+.invoice-section .head .row-content .box .row-invoice-download .btn-download {
+  background-color: #fff;
+  width: auto;
+  border: 2px solid blue;
+  color: blue;
+}
+/*# sourceMappingURL=Invoice.css.map */
